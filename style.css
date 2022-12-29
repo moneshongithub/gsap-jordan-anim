@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: gilroy;
+    text-transform: capitalize;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #323438;
+    display: flex;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    /* background-color: #3A3D42; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: absolute;
+    z-index: 99;
+    opacity: 1;
+}
+#nav>img{
+    height: 60px;
+}
+#links{
+    display: flex;
+   
+}
+#links h5{
+    margin-right: 30px;
+}
+#search{
+    display: flex;
+}
+i{
+    margin-right: 30px; 
+    /* background-color: #52555a69; */
+    /* padding: 8px; */
+    /* border-radius: 50%; */
+
+}
+#left{
+    width: 60%;
+    height: 100%;
+    z-index: 9;
+}
+#right{
+    height: 100%;
+    width: 40%;
+    background-color: #ea2c3f;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 100%);
+    
+
+}
+#shoes img{
+    height: 420px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    z-index: 9999;
+    transform: rotateY(180deg);
+    rotate:-30deg;
+
+}
+#content{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 400px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+button{
+    background-color: #E63B4D;
+    border-radius: 20px;
+    width: 120px;
+    border: none;
+    padding: 8px 12px   ;
+}
+p{
+    line-height: 25px;
+
+}
+h1{
+    font-size: 55px;
+    font-weight: 900;
+}
+#right #circ{
+    height: 90px;
+    width: 90px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 10%;
+    right: 9%;
+    border-radius: 50%;
+}
+#circ i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#circ h4{
+    position: absolute;
+    right: -30px;
+    top: 20px;
+    width: 20px;
+}
+span{
+    opacity: 0.7;
+}
+#sm{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+#loader{
+    height:100vh;
+    width: 100vw;
+    background-color: #3A3D42;
+    position: absolute;
+    z-index: 999999999;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    top: -200%;
+
+}
+#loader img{
+    height: 300px;
+}
+#main>h1{
+    font-size: 300px;
+    position: absolute;
+    top: 23%;
+    white-space: nowrap;
+    color: #1e1e1e55;
+}
